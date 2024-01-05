@@ -4,6 +4,7 @@ category: media
 name: Readarr
 version: "0.2.4"
 tagline: Your book collection manager
+icon: https://svgshare.com/i/vsy.svg
 description: >-
   Readarr is an ebook and audiobook collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new books from your favorite authors and will grab, sort, and rename them. Note that only one type of a given book is supported. If you want both an audiobook and ebook of a given book you will need multiple instances.
 developer: Readarr
@@ -14,9 +15,9 @@ repo: https://github.com/Readarr/Readarr
 support: https://github.com/Readarr/Readarr/issues
 port: 8787
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://camo.githubusercontent.com/b1a94f9e5b0b9cc0e621c7880683038d8e92644cb697c804deedf52b07cc79cb/68747470733a2f2f726561646172722e636f6d2f696d672f66656174757265732f63616c656e6461722e706e67
+  - https://camo.githubusercontent.com/1bc755f4fa8366dbc2e37b52796fe8ded709b8dc9f698ac90d9b2262e86d8484/68747470733a2f2f726561646172722e636f6d2f696d672f66656174757265732f63616c696272652e706e67
+  - https://camo.githubusercontent.com/b6731ab0cb872bf8b124ae2e3a932f2c218d1080b6663587813a3bb41f35a4ea/68747470733a2f2f726561646172722e636f6d2f696d672f66656174757265732f6d616e75616c7365617263682e706e67
 path: ""
 defaultUsername: ""
 defaultPassword: ""
