@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  libation:
+    image: rmcrackan/libation:latest
+    container_name: libation
+    restart: always
+    user: "1001:1001"  # Run as user 1001
+    volumes:
+      - /opt/libation/config:/config  # Configuration files
+      - /opt/libation/books:/data      # Books directory
+      # Uncomment the following line if you want to use a custom database directory
+      # - /opt/libation/db:/db          # Optional database directory
+    environment:
+      - SLEEP_TIME=10m                  # Set the sleep time for scanning
+      - LIBATION_BOOKS_DIR=/data        # Folder where books will be saved
+      - LIBATION_CONFIG_DIR=/config      # Folder to read configuration from
+      # Uncomment the following line if you want to specify a custom database file
+      # - LIBATION_DB_FILE=mydatabase.db  # Name of database file to load
+      # Uncomment the following line if you want to control database creation
+      # - LIBATION_CREATE_DB=true         # Create a database file if none are found
+
+networks:
+  default:
+    driver: bridge

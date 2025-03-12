@@ -1,0 +1,24 @@
+manifestVersion: 1.1
+id: libation-audiobooks
+category: media
+name: Libation
+version: "latest"
+tagline: Your Audible audiobook manager
+icon: https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Icons8_flat_audiobook.svg/1200px-Icons8_flat_audiobook.svg.png
+description: >-
+  Libation is an Audible audiobook manager and downloader. It allows you to backup your Audible library locally and manage your audiobook collection. The app can automatically scan for new books and download them, saving them in your specified directory.
+developer: rmcrackan
+website: https://github.com/rmcrackan/Libation
+dependencies: []
+repo: https://github.com/rmcrackan/Libation
+support: https://github.com/rmcrackan/Libation/issues
+port: 8191
+gallery:
+  - https://raw.githubusercontent.com/rmcrackan/Libation/master/Docs/_screens/library.png
+  - https://raw.githubusercontent.com/rmcrackan/Libation/master/Docs/_screens/options.png
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+permissions:
+  - STORAGE_DOWNLOADS
